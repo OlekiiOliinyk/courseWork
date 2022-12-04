@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="230.0" prefWidth="360.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.controllers.DeleteController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="62.0" layoutY="38.0" prefHeight="30.0" prefWidth="235.0" style="-fx-font-family: Tahoma;" text="Введіть порядкий номер" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="deleteField" layoutX="105.0" layoutY="90.0" />
+      <Button layoutX="62.0" layoutY="141.0" mnemonicParsing="false" onAction="#delete" prefHeight="26.0" prefWidth="101.0" text="Видалити" />
+      <Button layoutX="204.0" layoutY="141.0" mnemonicParsing="false" onAction="#goBack" prefHeight="26.0" prefWidth="101.0" text="Назад" />
+   </children>
+</AnchorPane>

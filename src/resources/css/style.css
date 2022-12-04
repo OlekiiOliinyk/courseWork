@@ -1,0 +1,37 @@
+.root{
+    -fx-background-color: #42CCC9;
+}
+
+.radio-button{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+}
+
+
+
+.button{
+    -fx-position-shape: sticky;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-color: #52ADD4;
+    -fx-border-color: #FFFFFF;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 6px;
+    -fx-border-width: 2px;
+
+}
+
+.button:hover{
+
+    -fx-border-color: #4873A6;
+    -fx-font-weight: bold;
+    -fx-background-color: #4873A6;
+}
+
+.button:pressed{
+    -fx-background-color: #5B538A;
+    -fx-border-color: #5B538A;
+}
+
+.list-view{
+    -fx-background-color: #C9FFFE;
+}
